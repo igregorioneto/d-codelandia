@@ -1,0 +1,114 @@
+@font-face {
+  font-family: Lexend Deca;
+  src: url('../fontes/LexendDeca-Regular.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('../fontes/Inter-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background-color: #E5E5E5;
+}
+
+header span {
+  font-family: Lexend Deca;
+  font-size: 24px;
+  text-align: right ;
+  color: #FFFFFF;
+}
+
+.container {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+}
+
+.info-header {
+  margin: 0 auto;
+  width: 900px;
+  height: 168px;
+}
+
+.info-header span {
+  margin-top: 41px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barra-pesquisa {
+  margin-top: 73px;
+}
+
+#barra-pesquisa {
+  width: 900px;
+  height: 53px;
+  font-family: Inter;
+  font-size: 18px;
+  background:  rgba(255,255,255,0.05);
+  opacity: 0.5;
+  color: #FFFFFF;
+  border-radius: 5px;
+  padding: 22px;
+}
+
+section {
+  margin-top: 100px;
+}
+
+article {
+  margin: 100px 0px 100px 0px;
+}
+
+.post-head {
+  margin-top: 10px;
+  padding: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.date {
+  font-family: Lexend Deca;
+  font-size: 16px;
+  text-align: right;
+  color: #B6B6B6;
+}
+
+.container-post {
+  margin-left: 23px;
+}
+
+.container-post h1 {
+  font-family: Lexend Deca;
+  font-size: 26px;
+  color: #313131;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.container-post p {
+  font-family: Lexend Deca;
+  font-size: 18px;
+  color: #B6B6B6;
+}
+
+.card-post {
+  margin: 0 auto;
+  width: 900px;
+  height: 195px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(19,19,31,0.05);
+  border-radius: 5px;
+}
