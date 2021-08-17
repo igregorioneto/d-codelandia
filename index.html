@@ -10,57 +10,66 @@
 </head>
 
 <body>
+  <div id="conteudo">
 
-  <header>
-    <div class="container">
-      <article class="info-header">
+    <header>
 
-        <div class="title">
-          <span class="logo">
-            Codelândia
-          </span>
+      <div class="container">
+        <article class="info-header">
 
-          <span class="nome">
-            blog
-          </span>
+          <div class="title">
+            <span class="logo">
+              Codelândia
+            </span>
+
+            <span class="nome">
+              blog
+            </span>
+          </div>
+          <div class="barra-pesquisa">
+            <img src="./assets/lupa.png" id="img-pesquisa">
+            <input type="text" id="barra-pesquisa" placeholder="Pesquisar no blog">
+          </div>
+
+        </article>
+
+      </div>
+    </header>
+
+    <section>
+      <article>
+
+        <div class="card-post">
+
+          <div class="post-head">
+            <span class="date">
+              02 de julho, 2021
+            </span>
+
+            <span class="like">
+              <input type="checkbox" id="like">
+              <label id="heart"></label>
+            </span>
+          </div>
+
+          <div class="container-post">
+            <h2>Agora é oficial: O Windows 11 está vindo</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien neque, pretium quis molestie at,
+              tincidunt et velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+            </p>
+          </div>
         </div>
-        <div class="barra-pesquisa">
-          <img src="./assets/lupa.png" id="img-pesquisa">
-          <input type="text" id="barra-pesquisa" placeholder="Pesquisar no blog">
-        </div>
-
       </article>
 
-    </div>
-  </header>
+    </section>
+  </div>
 
-  <section>
-    <article>
+  <div id="loading">
+    <div class="c-loader"></div>
+  </div>
 
-      <div class="card-post">
-
-        <div class="post-head">
-          <span class="date">
-            02 de julho, 2021
-          </span>
-
-          <span class="like">
-            <input type="checkbox" id="like">
-            <label id="heart"></label>
-          </span>
-        </div>
-
-        <div class="container-post">
-          <h2>Agora é oficial: O Windows 11 está vindo</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sapien neque, pretium quis molestie at,
-            tincidunt et velit. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-          </p>
-        </div>
-      </div>
-    </article>
-
-  </section>
+  <script src="./js/scripts.js"></script>
 </body>
 
 </html>
