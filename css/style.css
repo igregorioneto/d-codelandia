@@ -79,12 +79,8 @@ section {
   margin-top: 100px;
 }
 
-article {
-  margin: 20px 0px 100px 0px;
-}
-
 .post-head {
-  margin-top: 10px;
+  margin-top: 40px;
   padding: 23px;
   display: flex;
   align-items: center;
@@ -197,16 +193,106 @@ article {
 }
 
 /* Responsividades <320,768-1024,>1024 */
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 93%;
+  }
+
+  .container {
+    width: 1024px;
+  }
+
+  .info-header {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 168px;
+  }
+
+  #barra-pesquisa {
+    position: relative;
+    width: 90%;
+  }
+
+  .title {
+    margin-right: 100px;
+  }
+
+  .card-post {
+    position: relative;
+    width: 750px;
+  }
+
+  section article {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px){
+  html{
+    font-size: 83%;
+  }
+
+  .container {
+    width: 768px;
+  }
+
+  .info-header {
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+    height: 168px;
+  }
+
+  #barra-pesquisa {
+    position: relative;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .card-post {
+    position: relative;
+    width: 500px;
+    height: 287px;
+  }
+
+  section article{
+    margin: 0 auto;
+  }
+
+}
+
 @media screen and (max-width: 500px) {
-  
+  html{
+    font-size: 83%;
+  }
 
-}
+  .container {
+    width: 500px;
+  }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  
+  .info-header {
+    position: relative;
+    margin: 0 auto;
+    width: 90%;
+    height: 168px;
+  }
 
-}
+  #barra-pesquisa {
+    position: relative;
+    width: 80%;
+  }
 
-@media screen and (min-width: 1024px) {
+  .card-post {
+    width: 400px;
+    height: 287px;
+  }
 
+  .title {
+    justify-content: space-between;
+  }
+
+  section article {
+    margin: 0 auto;
+  }
 }
