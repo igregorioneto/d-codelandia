@@ -24,10 +24,66 @@ let postagem = [
   }
 ]
 
-let post = document.querySelector('.card-post')
-let data = document.querySelector('.date')
-let informacao_post = document.querySelector('.container-post')
+// Carregando elementos na tela do card das postagens
+window.addEventListener('load', () => {
 
-for (let p of postagem) {
-  console.log(p)
-}
+  let barraPesquisa = document.getElementById('barra-pesquisa')
+  barraPesquisa.addEventListener('change', item => {
+    postagem.forEach(itens => {
+      if (item.data == itens.titulo) {
+        console.log(itens)
+      }
+    })
+  })
+
+  postagem.forEach(itens => {
+
+    let article = document.querySelector('.article-post')
+
+    let cardPost = document.createElement('div')
+    cardPost.classList.add('card-post')
+
+    article.appendChild(cardPost)
+
+    // criando div do cabeçalho da postagem
+    let divPostHead = document.createElement('div')
+    divPostHead.classList.add('post-head')
+
+    // filhos da divPostHead
+    let spanDate = document.createElement('span')
+    spanDate.classList.add('date')
+    // input e label divPostHead
+    let spanLike = document.createElement('span')
+    spanLike.classList.add('like')
+
+    divPostHead.appendChild(spanDate)
+    divPostHead.appendChild(spanLike)
+
+
+    let inputLike = document.createElement('input')
+    inputLike.setAttribute('type', 'checkbox')
+    inputLike.setAttribute('id', 'like')
+    let labelLike = document.createElement('label')
+    labelLike.setAttribute('id', 'heart')
+
+    spanLike.appendChild(inputLike)
+    spanLike.appendChild(labelLike)
+
+
+    let containerPost = document.createElement('div')
+    containerPost.classList.add('container-post')
+    let containerPostH2 = document.createElement('h2')
+    let containerPostP = document.createElement('p')
+
+    containerPost.appendChild(containerPostH2)
+    containerPost.appendChild(containerPostP)
+
+    cardPost.appendChild(divPostHead)
+    cardPost.appendChild(containerPost)
+
+    // Atribuindo valores a cada elemento
+    spanDate.innerHTML = itens.data
+    containerPostH2.innerHTML = itens.titulo
+    containerPostP.innerHTML = itens.descricao
+  })
+})
