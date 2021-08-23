@@ -8,7 +8,7 @@
 
 <img src="https://img.shields.io/static/v1?label=UnidadesFaturas&message=Greg%C3%B3rioNeto&color=7159c1&style=for-the-badge&logo=ghost">
 
-![D-Codelandia](https://github.com/igregorioneto/cad-unidades-consumidoras/blob/Unidades/src/assets/icons/simplescreenrecorder-2021-08-13_21.21.16.gif?raw=true)
+![D-Codelandia](https://github.com/igregorioneto/d-codelandia/blob/main/assets/simplescreenrecorder-2021-08-23_18.18.46.gif)
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
