@@ -6,7 +6,7 @@
 </h1>
 
 
-<img src="https://img.shields.io/static/v1?label=UnidadesFaturas&message=Greg%C3%B3rioNeto&color=7159c1&style=for-the-badge&logo=ghost">
+<img src="https://img.shields.io/static/v1?label=Codelandia&message=Greg%C3%B3rioNeto&color=7159c1&style=for-the-badge&logo=ghost">
 
 ![D-Codelandia](https://github.com/igregorioneto/d-codelandia/blob/main/assets/simplescreenrecorder-2021-08-23_18.18.46.gif)
 
