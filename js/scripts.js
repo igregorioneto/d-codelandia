@@ -27,15 +27,6 @@ let postagem = [
 // Carregando elementos na tela do card das postagens
 window.addEventListener('load', () => {
 
-  let barraPesquisa = document.getElementById('barra-pesquisa')
-  barraPesquisa.addEventListener('change', item => {
-    postagem.forEach(itens => {
-      if (item.data == itens.titulo) {
-        console.log(itens)
-      }
-    })
-  })
-
   postagem.forEach(itens => {
 
     let article = document.querySelector('.article-post')

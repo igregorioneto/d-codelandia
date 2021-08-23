@@ -262,13 +262,13 @@ section {
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 425px) {
   html{
-    font-size: 83%;
+    font-size: 93%;
   }
 
   .container {
-    width: 500px;
+    width: 450px;
   }
 
   .info-header {
@@ -280,11 +280,11 @@ section {
 
   #barra-pesquisa {
     position: relative;
-    width: 80%;
+    width: 90%;
   }
 
   .card-post {
-    width: 400px;
+    width: 350px;
     height: 287px;
   }
 
