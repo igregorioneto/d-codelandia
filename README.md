@@ -23,6 +23,15 @@ Objetivo:
 🚀 Desafio proposto por Iuri Silva. Modelo de um Blog. <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1">Link do UI/UX no FIGMA.</a>
 </p>
 
+<p>
+🚀 Desenvolvi utilizando Html, Css e Javascript.
+[x]Animações do botão de curtida
+[x]Animação de Loading
+[x]Animação dos cards dos posts
+[x] Listagem das postagens dinâmica com Javascript(falta alguns ajustes como refatorar).
+[x] Responsividade (falta resoluções menores)
+</p>
+
 <h2 align="center">
 Tecnologias:
 </h2>
